@@ -1,0 +1,52 @@
+name: student_portal
+description: "A new Flutter project."
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.5+1
+  firebase_core: ^4.1.0
+  firebase_auth: ^6.0.2
+  cloud_firestore: ^6.0.1
+  flutter_staggered_grid_view: ^0.7.0
+  uuid: ^4.5.1
+  firebase_messaging: ^16.0.1
+  flutter_local_notifications: ^19.4.2
+  intl: ^0.20.2
+  firebase_storage: ^13.0.1
+  image_picker: ^1.2.0
+  razorpay_flutter: ^1.4.0
+  flutter_stripe: ^12.0.2
+  pdf: ^3.11.3
+  path_provider: ^2.1.5
+  fl_chart: ^1.1.1
+  file_picker: ^10.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/course_images/android dev.jpg
+    - assets/course_images/cyber-security.jpg
+    - assets/course_images/data-science.png
+    - assets/course_images/Data-analytics.png
+    - assets/course_images/agentic-ai.png
+    - assets/course_images/C++.png
+    - assets/course_images/Digital-Marketing.png
+    - assets/course_images/web-development.png
+    - assets/course_images/Machine-learning .png
+    - assets/course_images/Python.png
+    - assets/course_images/Core-java.png
+    - assets/course_images/Javascript.png
+    - assets/course_images/ai.png
+    - assets/course_images/graphic-s.jpg
+
